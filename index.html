@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css display properties</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            border: 2px solid red;
+            display: inline-block;
+            /* display inline krne se jo div block element hn ooa inline element ho jaye ga  */
+            padding: 45px;
+            margin: 34px;
+            /* display: none; is the property which hide hide the box*/
+            /* visibility:hidden is the property jis me box hide ho jati hn par space nhi; */
+            /* padding top se nhi lgta element inline hn tb  and margin also is ko shi krne ke liye inline element ko ham inline-block kr denge*/
+            display: flex;
+            justify-content: center;
+            display: inline-flex;
+           s */
+            
+            /* display flex or or justify content se ham kisi bhi box ko ya element ko move kra sakte hn  */
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        i am a box
+    </div>
+    <div class="box"> a nice box
+    </div>
+<!--     
+    <span>i a span</span> -->
+    <!-- <span>span2</span> -->
+</body>
+
+</html>
